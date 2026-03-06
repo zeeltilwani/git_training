@@ -1,4 +1,6 @@
 Scenario 1 – Wrong Branch Commit
+
+
 Situation
 
 Work was supposed to be done on feature/login
@@ -33,7 +35,13 @@ Commit moved to feature/login
 
 main history remains clean
 
+
+
+
 Scenario 2 – Bad Commit Already Pushed
+
+
+
 Situation
 
 A wrong commit was pushed to main
@@ -68,8 +76,13 @@ A new commit is created that reverses the bad change
 
 History remains intact and safe for teams
 
+
+
+
 Scenario 3 – Merge Conflict in Team Environment
 Situation
+
+
 
 Working on feature/payment
 
